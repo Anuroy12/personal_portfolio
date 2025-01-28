@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 4, 83);
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: rgb(16, 8, 42);
+}
+
+.about-container {
+    max-width: 800px;
+    background-color: rgb(22, 4, 83);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(192, 134, 247);
+}
+
+.about-content {
+    text-align: left;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.highlight {
+    color: rgb(192, 134, 247);
+    font-weight: bold;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 3px solid rgb(192, 134, 247);
+}
+@media (max-width: 768px) {
+    .about-container {
+        padding: 20px;
+    }
+
+    .about-container h1 {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 0.9rem;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-container {
+        padding: 15px;
+    }
+
+    .about-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-content p {
+        font-size: 0.8rem;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+}
